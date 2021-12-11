@@ -12,13 +12,6 @@ const fullPrice = screenPrice + screenPrice1 + screenPrice2
 const rollback = 79
 const servicePercentPrice = fullPrice - (fullPrice * (rollback/100))
 
-/* const title = 'my project'
-const screens = 'Простые, Сложные, Интерактивные'
-const screenPrice = 50
-const rollback = 79
-const fullPrice = 700000
-const adaptive = true */
-
 console.log (title);
 console.log (screens);
 console.log (`Стоимость верстки экранов ${screenPrice} рублей/ долларов/гривен/юани`);
